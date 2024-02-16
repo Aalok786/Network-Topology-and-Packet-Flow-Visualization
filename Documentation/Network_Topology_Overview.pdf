@@ -1,0 +1,62 @@
+## Network Topology Overview
+
+## Overview
+
+This document provides an overview of the network topology created for the Packet Flow Visualizer project. The topology encompasses the devices within the college network, illustrating their interconnections and the path from student laptops/desktops to external networks.
+
+## Devices
+
+### 1. Routers
+
+- Router 1 (R1):
+  - Description: Core router connecting the college network to external networks.
+  - Configuration: IPv4 addressing configured to facilitate routing decisions.
+
+- Router 2 (R2):
+  - Description: Distribution router managing traffic within the college network.
+  - Configuration: Interconnected with Router 1 and switches, facilitating internal routing.
+
+### 2. Switches
+
+- Switch 1 (S1):
+  - Description: Core switch connecting end-user devices to the distribution router.
+  - Configuration: Manages local network segments and facilitates communication.
+
+- Switch 2 (S2):
+  - Description: Distribution switch connecting various network segments.
+  - Configuration: Interfaces with Router 2 and connects to end-user devices.
+
+### 3. End-User Devices
+
+- Student Devices (Hosts):
+  - Description: Laptops/desktops used by students within the college network.
+
+## Interconnections
+
+- Router Interconnections:
+  - R1 is directly connected to external networks.
+  - R1 and R2 are interconnected to facilitate internal routing.
+
+- Switch Interconnections:
+  - S1 connects to R2 and student devices.
+  - S2 connects to R2 and additional network segments.
+
+## Network Design
+
+- Routing Decisions:
+  - Routers make decisions based on IPv4 addressing to direct traffic within the network.
+
+- Segmentation:
+  - Switches manage local network segments, optimizing traffic flow.
+
+## Network Boundaries
+
+- External Networks:
+  - Beyond R1, representing the boundary between the college network and external networks.
+
+- Internal Network Segments:
+  - Defined by switches and routers, illustrating different segments within the college network.
+
+## Conclusion
+
+The network topology overview establishes the foundation for packet flow analysis. It showcases the key devices, their interconnections, and the overall design of the college network.
