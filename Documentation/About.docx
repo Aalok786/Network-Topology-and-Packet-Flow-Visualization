@@ -1,0 +1,52 @@
+## Packet Flow Visualizer Documentation
+
+## Project Overview
+
+The Packet Flow Visualizer project aims to create a visual representation of packet flow within a college network, emphasizing the path from students' laptops/desktops to external networks. The solution involves network topology creation using Cisco Packet Tracer and packet flow investigation.
+
+## Repository Contents
+
+1. `Packet_Tracer_File.pkt`
+   - Cisco Packet Tracer file illustrating the network topology.
+
+2. `README.md`
+   - Readme file providing an overview of the project, how to use the Packet Tracer file, and important information.
+
+3. `LICENSE.txt`
+   - License file specifying the terms under which the project is released. (See below for the modified license text.)
+
+4. `docs/`
+   - Folder containing additional documentation related to the project.
+     - `Packet_Flow_Analysis.pdf`: Detailed insights into packet flow investigation and analysis.
+     - `Network_Topology_Overview.pdf`: Overview of the created network topology.
+
+5. Screenshots or Demo
+   - Include screenshots or a demo video showcasing the network topology and packet flow within Cisco Packet Tracer.
+
+## How to Use the Packet Tracer File
+
+To view the network topology and packet flow within Cisco Packet Tracer, follow these steps:
+
+1. Download and install Cisco Packet Tracer from [NetAcad](https://www.netacad.com/courses/packet-tracer).
+2. Open Cisco Packet Tracer.
+3. Load the Packet Tracer file (`Packet_Tracer_File.pkt`) from this repository.
+
+## Educational Insights
+
+The project provides the following educational insights:
+
+- Understanding different blocks of network design.
+- Familiarity with OSI model layers and the importance of layering.
+- A comprehensive understanding of the roles of various devices in a network.
+
+## Disclaimer
+
+The Packet Tracer file is intended for educational purposes, showcasing network topology and packet flow analysis within a controlled environment.
+
+## Contributions and Acknowledgments
+
+Contributions and feedback are welcome. Acknowledgments to tools, resources, or guidance related to the project are appreciated.
+
+## License
+
+This project is released under the [MIT License](LICENSE.txt). Feel free to download and view the Packet Tracer file for educational purposes Only.
